@@ -1,0 +1,20 @@
+{
+    "name": "hb/todolist-composer",
+    "description": "Create a todolist app with PHP Symphonyand composer for the Symphony cours",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hb\\TodolistComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ryan-Bouanani",
+            "email": "ryan42426@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.4"
+    }
+}
